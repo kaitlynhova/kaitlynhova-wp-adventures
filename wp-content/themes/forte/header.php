@@ -50,6 +50,12 @@ if ( !is_404() ) {
 
 <body <?php body_class($heroheader); ?>> <?php bean_body_start(); ?>
 
+  <div class="row">
+    <div class="col-md-4">.col-md-4</div>
+    <div class="col-md-4">.col-md-4</div>
+    <div class="col-md-4">.col-md-4</div>
+  </div>
+
 	<?php if ( !is_404() && !is_page_template('template-underconstruction.php')) { //HIDE THIS ON 404/UNDER CONSTRUCTION TEMPLATES ?>
 
 		<div id="skrollr-body">
