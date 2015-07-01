@@ -20,21 +20,21 @@
 
 <head>
 	<title><?php wp_title( '|', true, 'right' ); ?></title>
-	
+
 	<meta charset="<?php bloginfo('charset'); ?>" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
+
 	<?php bean_meta_head(); ?>
-	
+
 	<link rel="alternate" type="application/rss+xml" title="<?php bloginfo( 'name' ); ?> RSS Feed" href="<?php bloginfo( 'rss2_url' ); ?>" />
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 	<link href='http://fonts.googleapis.com/css?family=Hind' rel='stylesheet' type='text/css'>
 	<?php echo get_theme_mod( 'google_analytics' ); ?>
-	
+
 	<?php bean_head(); wp_head(); ?>
 </head>
 
-<?php 
+<?php
 $heroheader = '';
 //ALTERNATE HEADER STYLES FOR HERO
 if ( !is_404() ) {
@@ -44,27 +44,17 @@ if ( !is_404() ) {
 			$heroheader = 'hero-header';
 		} else {
 			$heroheader = 'no-hero';
-		} 
+		}
 	}
 } ?>
-			
+
 <body <?php body_class($heroheader); ?>> <?php bean_body_start(); ?>
 
 	<?php if ( !is_404() && !is_page_template('template-underconstruction.php')) { //HIDE THIS ON 404/UNDER CONSTRUCTION TEMPLATES ?>
-		
-		<div id="skrollr-body">
-		
-			<div id="theme-wrapper">
 
-				<nav id="mobile-nav">
-						
-					<?php if ( function_exists('wp_nav_menu') ) {
-						wp_nav_menu( array(
-							'theme_location' => 'mobile-menu'
-						));
-					} ?>
-				
-				</nav><!-- END #mobile-nav -->
+		<div id="skrollr-body">
+
+			<div id="theme-wrapper">
 
 				<div id="page" class="hfeed site">
 
@@ -76,7 +66,7 @@ if ( !is_404() ) {
 							<a class="sidebar-btn" href="javascript:void(0);"><span></span></a>
 							<div class="nav-overlay"></div>
 						<?php } ?>
-						
+
 					</header><!-- END #header -->
 
 	<?php } //END if ( !is_404()...
