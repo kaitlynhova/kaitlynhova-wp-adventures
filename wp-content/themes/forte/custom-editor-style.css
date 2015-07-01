@@ -1,0 +1,43 @@
+/*===================================================================*/
+/*	STYLES FOR THE POST/PAGE EDITOR
+/*===================================================================*/
+
+@import url( 'style.css' );
+
+body.wp-autoresize { padding: 20px 25px!important; background: #FFF; }
+
+body, button, input, select, textarea, h1 span, blockquote cite {
+	font-weight: 400;
+}
+
+p, ul, ol, dl, dd, form table, address, fieldset, h1, h2, h3, h4, h5, h6, .gist, .bean-alert { 
+	margin-bottom: 20px; 
+	margin-bottom: 3%;
+}
+
+ul ul, ul ol, ol li ul, ul li ol, ul li ul, ol li ol {
+	margin: 1% 0 1% 20px;
+}
+
+ul { 
+	list-style-type: disc;
+	margin: 5% 5% 5% 20px;
+}
+
+ol { 	
+	list-style-type: decimal; 
+	margin: 5% 5% 5% 20px;
+}
+
+
+blockquote {
+	margin: 5% 0%;
+}
+
+.wp-caption {
+	border: none;
+	background-color: transparent;
+}
+.wp-caption:after {
+	margin: 5% auto;
+}

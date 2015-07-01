@@ -1,0 +1,1265 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Forte\n"
+"POT-Creation-Date: 2015-04-30 12:35-0500\n"
+"PO-Revision-Date: 2015-04-30 12:36-0500\n"
+"Last-Translator: Rich Tabor <hello@themebeans.com>\n"
+"Language-Team: Rich Tabor <hello@themebeans.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:27
+msgid "We couldn’t find the page you were looking for."
+msgstr ""
+
+#: 404.php:28
+msgid "Click here to go to the homepage"
+msgstr ""
+
+#: comments.php:19
+msgid "0 Comments"
+msgstr ""
+
+#: comments.php:19
+msgid "1 Comment"
+msgstr ""
+
+#: comments.php:19
+msgid "% Comments"
+msgstr ""
+
+#: comments.php:23 comments.php:36
+msgid "Comments are now closed."
+msgstr ""
+
+#: comments.php:79
+msgid "Trackbacks."
+msgstr ""
+
+#: content-hidden-sidebar.php:4
+msgid "Menu"
+msgstr ""
+
+#: content-post-rcp-btns.php:8
+msgid "Subscribe Today"
+msgstr ""
+
+#: content-post-rcp-btns.php:11
+msgid "Login"
+msgstr ""
+
+#: content-post-related.php:39 content-post-related.php:46 index.php:60
+#: index.php:67 search.php:53 search.php:60
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+#: content-post-related.php:59 index.php:91 search.php:84 single.php:127
+msgid "on "
+msgstr ""
+
+#: framework/debug/bean-debug-footer.php:23
+msgid "<span>Theme:</span> <span class=\"debug-detail\">"
+msgstr ""
+
+#: framework/debug/bean-debug-footer.php:24
+msgid "View Changelog"
+msgstr ""
+
+#: framework/debug/bean-debug-footer.php:29
+msgid "PHP: "
+msgstr ""
+
+#: framework/debug/bean-debug-footer.php:29
+msgid "(Requires >PHP 5.2.4)"
+msgstr ""
+
+#: framework/debug/bean-debug-footer.php:31
+msgid "MySQL: "
+msgstr ""
+
+#: framework/debug/bean-debug-footer.php:31
+msgid " (Requires >MySQL 5.0)"
+msgstr ""
+
+#: framework/debug/bean-debug-footer.php:33
+msgid "CURL: "
+msgstr ""
+
+#: framework/functions/bean-admin-createaccount-notification.php:33
+#, php-format
+msgid ""
+"<a target=\"_blank\" href=\"http://themebeans.com/register/?level=2/?"
+"ref=theme_notice_createaccount\">Create a free ThemeBeans account</a> to "
+"access all our free themes and plugins. <a class=\"dismiss-notice\" href="
+"\"%1$s\">Dismiss</a>"
+msgstr ""
+
+#: framework/functions/bean-admin-license-notification.php:37
+#, php-format
+msgid "<a class=\"dismiss-notice\" href=\"%1$s\">Dismiss</a>"
+msgstr ""
+
+#: framework/functions/bean-admin-meta-seo.php:26
+msgid "SEO Settings"
+msgstr ""
+
+#: framework/functions/bean-admin-meta-seo.php:27
+msgid "Customize the SEO settings of your posts/pages"
+msgstr ""
+
+#: framework/functions/bean-admin-meta-seo.php:33
+#: inc/widgets/widget-video.php:110
+msgid "Title:"
+msgstr ""
+
+#: framework/functions/bean-admin-meta-seo.php:34
+msgid "The page or post title. Maximum of 60 characters."
+msgstr ""
+
+#: framework/functions/bean-admin-meta-seo.php:40
+msgid "Description:"
+msgstr ""
+
+#: framework/functions/bean-admin-meta-seo.php:41
+msgid "A description of your page or post. Maximum of 160 characters."
+msgstr ""
+
+#: framework/functions/bean-admin-meta-seo.php:47
+msgid "Keywords:"
+msgstr ""
+
+#: framework/functions/bean-admin-meta-seo.php:48
+msgid "List SEO keywords, separated by commas."
+msgstr ""
+
+#: framework/functions/bean-admin-meta-seo.php:54
+msgid "Meta Robots Index:"
+msgstr ""
+
+#: framework/functions/bean-admin-meta-seo.php:55
+msgid "Do you want robots to index this page?"
+msgstr ""
+
+#: framework/functions/bean-admin-meta-seo.php:62
+msgid "Meta Robots Follow:"
+msgstr ""
+
+#: framework/functions/bean-admin-meta-seo.php:63
+msgid "Do you want robots to follow links from this page?"
+msgstr ""
+
+#: framework/functions/bean-admin-meta-seo.php:107
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: framework/functions/bean-admin-metaboxes.php:81
+#: framework/functions/bean-admin-metaboxes.php:129
+msgid "Insert"
+msgstr ""
+
+#: framework/functions/bean-admin-metaboxes.php:135
+#: framework/functions/bean-admin-metaboxes.php:251
+msgid "Saving..."
+msgstr ""
+
+#: framework/functions/bean-admin-metaboxes.php:191
+msgid "Create Gallery"
+msgstr ""
+
+#: framework/functions/bean-admin-metaboxes.php:198
+#: framework/functions/bean-admin-metaboxes.php:205
+#: framework/functions/bean-admin-metaboxes.php:314
+#: framework/functions/bean-admin-metaboxes.php:316
+msgid "Edit Gallery"
+msgstr ""
+
+#: framework/functions/bean-admin-metaboxes.php:204 functions.php:663
+msgid "Cancel"
+msgstr ""
+
+#: framework/functions/bean-admin-metaboxes.php:241
+msgid "Save Gallery"
+msgstr ""
+
+#: framework/functions/bean-admin-metaboxes.php:385
+msgid "Yes, please do"
+msgstr ""
+
+#: framework/functions/bean-admin-plugin-feed.php:76
+msgid "More Plugins by ThemeBeans"
+msgstr ""
+
+#: framework/functions/bean-admin-plugin-feed.php:77
+msgid ""
+"Free & premium WordPress plugins that our team has developed in-house to "
+"futher extend the functionality of your awesome new WordPress theme."
+msgstr ""
+
+#: framework/functions/bean-admin-plugin-feed.php:121
+#: framework/functions/bean-admin-theme-feed.php:122
+msgid "Error fetching items."
+msgstr ""
+
+#: framework/functions/bean-admin-plugin-notification.php:87
+#, php-format
+msgid ""
+"WordPress Plugins. <a class=\"dismiss-notice\" href=\"%1$s\">Dismiss</a>"
+msgstr ""
+
+#: framework/functions/bean-admin-pointers.php:84
+msgid "Portfolio Featured Image"
+msgstr ""
+
+#: framework/functions/bean-admin-pointers.php:85
+msgid ""
+"Don&#39;t forget to set your portfolio featured image. Otherwise your post "
+"may not display on the portfolio templates. Cheers!"
+msgstr ""
+
+#: framework/functions/bean-admin-pointers.php:87
+msgid "Upload your Gallery Images"
+msgstr ""
+
+#: framework/functions/bean-admin-pointers.php:88
+msgid ""
+"Utilize our media uploader to insert your portfolio images. You may add new "
+"or select previously uploaded media. Nice."
+msgstr ""
+
+#: framework/functions/bean-admin-theme-feed.php:76
+msgid "More Themes by ThemeBeans"
+msgstr ""
+
+#: framework/functions/bean-admin-theme-feed.php:77
+msgid ""
+"Each theme in our collection is meticulously crafted to afford the best user "
+"experience possible, for developers & WordPress novices alike."
+msgstr ""
+
+#: framework/updates/EDD_SL_Theme_Activation.php:79
+msgid "Theme License"
+msgstr ""
+
+#: framework/updates/EDD_SL_Theme_Activation.php:80
+msgid "In order to access support and updates for "
+msgstr ""
+
+#: framework/updates/EDD_SL_Theme_Activation.php:86
+msgid "Details"
+msgstr ""
+
+#: framework/updates/EDD_SL_Theme_Activation.php:87
+msgid ""
+"It is important to keep your license up to date in order to continue getting "
+"updates for "
+msgstr ""
+
+#: framework/updates/EDD_SL_Theme_Activation.php:91
+msgid ""
+"Don&#39;t let your license expire. Renew your license and <strong>Save 30%</"
+"strong> right off!"
+msgstr ""
+
+#: framework/updates/EDD_SL_Theme_Activation.php:109
+msgid "Your Version:"
+msgstr ""
+
+#: framework/updates/EDD_SL_Theme_Activation.php:111
+msgid "Current Version:"
+msgstr ""
+
+#: framework/updates/EDD_SL_Theme_Activation.php:113
+msgid "License Key:"
+msgstr ""
+
+#: framework/updates/EDD_SL_Theme_Activation.php:115
+msgid "Status:"
+msgstr ""
+
+#: framework/updates/EDD_SL_Theme_Activation.php:121
+msgid "License Key"
+msgstr ""
+
+#: framework/updates/EDD_SL_Theme_Activation.php:128
+msgid "Deactivate"
+msgstr ""
+
+#: framework/updates/EDD_SL_Theme_Activation.php:129
+msgid "Active"
+msgstr ""
+
+#: framework/updates/EDD_SL_Theme_Activation.php:130
+msgid "Renew your license for "
+msgstr ""
+
+#: framework/updates/EDD_SL_Theme_Activation.php:133
+msgid "Activate"
+msgstr ""
+
+#: framework/updates/EDD_SL_Theme_Activation.php:136
+#: framework/updates/EDD_SL_Theme_Activation.php:138
+msgid "Did you purchase "
+msgstr ""
+
+#: framework/updates/EDD_SL_Theme_Activation.php:140
+msgid "Need a license key for "
+msgstr ""
+
+#: framework/updates/EDD_SL_Theme_Activation.php:140
+msgid "Get one today &rarr;"
+msgstr ""
+
+#: framework/updates/EDD_SL_Theme_Updater.php:60
+msgid ""
+"You will lose any customizations you have made to the parent theme files "
+"upon updating. If you are using a child theme, then you are safe to update. "
+"'Cancel' to stop, 'OK' to update."
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beanconditions.php:29
+#: framework/widget-areas/bean-admin-class.beansidebars.php:208
+msgid "Conditions"
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beanconditions.php:96
+#: framework/widget-areas/bean-admin-class.beanconditions.php:258
+#: template-site-map.php:49
+msgid "Pages"
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beanconditions.php:102
+#, php-format
+msgid "The \"%s\" page"
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beanconditions.php:162
+#, php-format
+msgid "A custom sidebar for \"%s\""
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beanconditions.php:175
+msgid "Page Templates"
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beanconditions.php:181
+#, php-format
+msgid "The \"%s\" page template"
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beanconditions.php:191
+msgid "Post Types"
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beanconditions.php:198
+#, php-format
+msgid "%s Posts Archive"
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beanconditions.php:199
+#, php-format
+msgid "The %s post type archive"
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beanconditions.php:207
+#, php-format
+msgid "Individual %s"
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beanconditions.php:208
+#, php-format
+msgid "Entries in the \"%s\" post type"
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beanconditions.php:226
+msgid "Taxonomy Archives"
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beanconditions.php:234
+#, php-format
+msgid "The default \"%s\" archives"
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beanconditions.php:243
+#, php-format
+msgid "The %s %s archive"
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beanconditions.php:245
+#, php-format
+msgid "All posts in \"%s\""
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beanconditions.php:245
+#, php-format
+msgid "All posts in the %s %s archive"
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beanconditions.php:254
+msgid "Template Hierarchy"
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beanconditions.php:259
+msgid "Displayed on all pages that don't have a more specific widget area."
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beanconditions.php:263
+msgid "Search Results"
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beanconditions.php:264
+msgid "Displayed on search results screens."
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beanconditions.php:268
+msgid "Default \"Your Latest Posts\" Screen"
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beanconditions.php:269
+msgid "Displayed on the default \"Your Latest Posts\" screen."
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beanconditions.php:273
+msgid "Front Page"
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beanconditions.php:274
+msgid ""
+"Displayed on any front page, regardless of the settings under the \"Settings "
+"-> Reading\" admin screen."
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beanconditions.php:278
+msgid "Single Entries"
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beanconditions.php:279
+msgid ""
+"Displayed on single entries of any public post type other than \"Pages\"."
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beanconditions.php:283
+msgid "All Archives"
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beanconditions.php:284
+msgid ""
+"Displayed on all archives (category, tag, taxonomy, post type, dated, author "
+"and search)."
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beanconditions.php:288
+msgid "Author Archives"
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beanconditions.php:289
+msgid ""
+"Displayed on all author archive screens (that don't have a more specific "
+"sidebar)."
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beanconditions.php:293
+msgid "Date Archives"
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beanconditions.php:294
+msgid "Displayed on all date archives."
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beanconditions.php:298
+msgid "404 Error Screens"
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beanconditions.php:299
+msgid "Displayed on all 404 error screens."
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beansidebars.php:99
+msgid "Widget Area"
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beansidebars.php:100
+#: framework/widget-areas/bean-admin-class.beansidebars.php:113
+msgid "Widget Areas"
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beansidebars.php:107
+msgctxt "post type general name"
+msgid "Widget Areas"
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beansidebars.php:108
+msgctxt "post type singular name"
+msgid "Widget Area"
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beansidebars.php:109
+msgctxt "Sidebar Area"
+msgid "Add New"
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beansidebars.php:110
+#, php-format
+msgid "Add New %s"
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beansidebars.php:111
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beansidebars.php:112
+#, php-format
+msgid "New %s"
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beansidebars.php:114
+#, php-format
+msgid "View %s"
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beansidebars.php:115
+msgid "Search %a"
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beansidebars.php:116
+#, php-format
+msgid "No %s Found"
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beansidebars.php:117
+#, php-format
+msgid "No %s Found In Trash"
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beansidebars.php:171
+msgid "(Not in use by current theme)"
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beansidebars.php:208
+#: framework/widget-areas/bean-admin-class.beansidebars.php:240
+msgid "Widget Area to Replace"
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beansidebars.php:275
+msgid "No sidebars are available with this theme."
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beansidebars.php:341
+msgid "Enter widget area name here"
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beansidebars.php:386
+msgid "Widget Area updated."
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beansidebars.php:596
+msgid "Custom Sidebars"
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beansidebars.php:651
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beansidebars.php:653
+msgid "You have taken too long. Please go back and retry."
+msgstr ""
+
+#: functions.php:129
+msgid "Primary Navigation"
+msgstr ""
+
+#: functions.php:130
+msgid "Mobile Navigation"
+msgstr ""
+
+#: functions.php:234
+msgid "Hidden Sidebar"
+msgstr ""
+
+#: functions.php:235
+msgid "Widget area for the hidden sidebar."
+msgstr ""
+
+#: functions.php:245
+msgid "Footer Col 1"
+msgstr ""
+
+#: functions.php:246
+msgid "Widget area for the first footer area."
+msgstr ""
+
+#: functions.php:255
+msgid "Footer Col 2"
+msgstr ""
+
+#: functions.php:256
+msgid "Widget area for the second footer area."
+msgstr ""
+
+#: functions.php:265
+msgid "Footer Col 3"
+msgstr ""
+
+#: functions.php:266
+msgid "Widget area for the third footer area."
+msgstr ""
+
+#: functions.php:346
+#, php-format
+msgid "Posts in: %s"
+msgstr ""
+
+#: functions.php:348
+#, php-format
+msgid "Posts tagged: %s"
+msgstr ""
+
+#: functions.php:351 functions.php:353 functions.php:355
+#, php-format
+msgid "Archive for: %s"
+msgstr ""
+
+#: functions.php:357
+msgid "Archives"
+msgstr ""
+
+#: functions.php:366
+#, php-format
+msgid "Posts by %s"
+msgstr ""
+
+#: functions.php:374
+#, php-format
+msgid "Results for &#8220;%s&#8221;"
+msgstr ""
+
+#: functions.php:502
+msgid "To view this protected post enter the password below:"
+msgstr ""
+
+#: functions.php:503
+msgid "Password:"
+msgstr ""
+
+#: functions.php:503
+msgid "Submit"
+msgstr ""
+
+#: functions.php:569
+#, php-format
+msgid "<cite class=\"fn\">%s</cite> "
+msgstr ""
+
+#: functions.php:572
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: functions.php:572
+msgid "Edit"
+msgstr ""
+
+#: functions.php:574
+msgid "Awaiting Moderation"
+msgstr ""
+
+#: functions.php:631
+msgid "Name"
+msgstr ""
+
+#: functions.php:637 rcp/register.php:18
+msgid "Email"
+msgstr ""
+
+#: functions.php:643
+msgid "Website"
+msgstr ""
+
+#: functions.php:651
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: functions.php:652
+#, php-format
+msgid ""
+"Currently logged in as <a href=\"%1$s\">%2$s</a> / <a href=\"%3$s\" title="
+"\"Log out of this account\">Logout</a>"
+msgstr ""
+
+#: functions.php:662
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: functions.php:664
+msgid "Submit Comment"
+msgstr ""
+
+#: inc/customizer/customizer.php:45
+msgid "Title & Tagline"
+msgstr ""
+
+#: inc/customizer/customizer.php:53
+msgid "Header Tagline"
+msgstr ""
+
+#: inc/customizer/customizer.php:67
+msgid "Site Settings"
+msgstr ""
+
+#: inc/customizer/customizer.php:76
+msgid "Enable Retina.js"
+msgstr ""
+
+#: inc/customizer/customizer.php:86
+msgid "Enable Framework SEO"
+msgstr ""
+
+#: inc/customizer/customizer.php:111
+msgid "General"
+msgstr ""
+
+#: inc/customizer/customizer.php:118
+msgid "Login Logo"
+msgstr ""
+
+#: inc/customizer/customizer.php:126
+msgid "Logo"
+msgstr ""
+
+#: inc/customizer/customizer.php:134
+msgid "Favicon"
+msgstr ""
+
+#: inc/customizer/customizer.php:142
+msgid "Apple Touch Icon"
+msgstr ""
+
+#: inc/customizer/customizer.php:151
+msgid "Twitter Username (eg:ThemeBeans)"
+msgstr ""
+
+#: inc/customizer/customizer.php:161
+msgid "Footer Alt Text"
+msgstr ""
+
+#: inc/customizer/customizer.php:169
+msgid "Google Analytics Script"
+msgstr ""
+
+#: inc/customizer/customizer.php:182 inc/customizer/customizer.php:203
+msgid "Background"
+msgstr ""
+
+#: inc/customizer/customizer.php:194
+msgid "Styles"
+msgstr ""
+
+#: inc/customizer/customizer.php:214
+msgid "Accent Color"
+msgstr ""
+
+#: inc/customizer/customizer.php:224
+msgid "Article CSS3 Filter"
+msgstr ""
+
+#: inc/customizer/customizer.php:243
+msgid "Blog"
+msgstr ""
+
+#: inc/customizer/customizer.php:253
+msgid "Activate Infinite Scrolling"
+msgstr ""
+
+#: inc/customizer/customizer.php:263
+msgid "Display Related Posts"
+msgstr ""
+
+#: inc/customizer/customizer.php:273
+msgid "Display Author Byline"
+msgstr ""
+
+#: inc/customizer/customizer.php:283
+msgid "Display Post Likes"
+msgstr ""
+
+#: inc/customizer/customizer.php:296
+msgid "Contact"
+msgstr ""
+
+#: inc/customizer/customizer.php:304
+msgid "Contact Form Email"
+msgstr ""
+
+#: inc/customizer/customizer.php:314
+msgid "Contact Button Text"
+msgstr ""
+
+#: inc/customizer/customizer.php:332
+msgid "Mailbag"
+msgstr ""
+
+#: inc/customizer/customizer.php:340
+msgid "Mailbag Title"
+msgstr ""
+
+#: inc/customizer/customizer.php:349
+msgid "Mailbag Paragraph"
+msgstr ""
+
+#: inc/customizer/customizer.php:359
+msgid "Select Email Service"
+msgstr ""
+
+#: inc/customizer/customizer.php:381
+msgid "RCP"
+msgstr ""
+
+#: inc/customizer/customizer.php:397
+msgid "Login Page"
+msgstr ""
+
+#: inc/customizer/customizer.php:407
+msgid "Register Page"
+msgstr ""
+
+#: inc/customizer/customizer.php:417
+msgid "Lost Page"
+msgstr ""
+
+#: inc/customizer/customizer.php:432
+msgid "404"
+msgstr ""
+
+#: inc/customizer/customizer.php:439
+msgid "404 Custom Image"
+msgstr ""
+
+#: inc/customizer/customizer.php:448
+msgid "404 Text"
+msgstr ""
+
+#: inc/customizer/customizer.php:462
+msgid "Tools CSS"
+msgstr ""
+
+#: inc/customizer/customizer.php:479
+msgid "Custom CSS Editor"
+msgstr ""
+
+#: inc/functions/media.php:28
+msgid "Play"
+msgstr ""
+
+#: inc/functions/media.php:29
+msgid "Pause"
+msgstr ""
+
+#: inc/meta/meta-page.php:27
+msgid "Page Meta Settings"
+msgstr ""
+
+#: inc/meta/meta-page.php:33 inc/meta/meta-post.php:33
+msgid "Subtitle:"
+msgstr ""
+
+#: inc/meta/meta-page.php:34
+msgid "A page subtitle to appear below the page title."
+msgstr ""
+
+#: inc/meta/meta-page.php:40
+msgid "Activate Fullscreen Hero:"
+msgstr ""
+
+#: inc/meta/meta-page.php:43
+msgid "Display a fullscreen hero area on this page."
+msgstr ""
+
+#: inc/meta/meta-page.php:47 inc/meta/meta-post.php:40
+msgid "Hero Background & Overlay:"
+msgstr ""
+
+#: inc/meta/meta-page.php:48
+msgid "Modify the overlay color and background color of the page hero area."
+msgstr ""
+
+#: inc/meta/meta-page.php:55 inc/meta/meta-post.php:48
+msgid "Background Video URL:"
+msgstr ""
+
+#: inc/meta/meta-page.php:56
+msgid "Upload an video for the video background. "
+msgstr ""
+
+#: inc/meta/meta-page.php:62 inc/meta/meta-post.php:55
+msgid "Background Video Embed:"
+msgstr ""
+
+#: inc/meta/meta-page.php:63 inc/meta/meta-post.php:56
+msgid "Add a video embed iframe for the video background. "
+msgstr ""
+
+#: inc/meta/meta-post.php:27
+msgid "Post Meta Settings"
+msgstr ""
+
+#: inc/meta/meta-post.php:34
+msgid "A post subtitle to appear below the post title."
+msgstr ""
+
+#: inc/meta/meta-post.php:41
+msgid "Modify the overlay color and background color of the post hero area."
+msgstr ""
+
+#: inc/meta/meta-post.php:49
+msgid "Upload or link to a video for the video background. "
+msgstr ""
+
+#: inc/meta/meta-post.php:73
+msgid "Audio Post Format Settings"
+msgstr ""
+
+#: inc/meta/meta-post.php:79
+msgid "MP3 File URL:"
+msgstr ""
+
+#: inc/meta/meta-post.php:80
+msgid "Upload or link to an MP3 file."
+msgstr ""
+
+#: inc/meta/meta-post.php:97
+msgid "Image/Gallery Post Format Settings"
+msgstr ""
+
+#: inc/meta/meta-post.php:107
+msgid "Browse & Upload"
+msgstr ""
+
+#: inc/meta/meta-post.php:110
+msgid "Randomize Gallery:"
+msgstr ""
+
+#: inc/meta/meta-post.php:113
+msgid "Randomize the gallery on page load."
+msgstr ""
+
+#: inc/meta/meta-post.php:128
+msgid "Link Post Format Settings"
+msgstr ""
+
+#: inc/meta/meta-post.php:133
+msgid "Link Title:"
+msgstr ""
+
+#: inc/meta/meta-post.php:134
+msgid "The title for your link."
+msgstr ""
+
+#: inc/meta/meta-post.php:139
+msgid "Link URL:"
+msgstr ""
+
+#: inc/meta/meta-post.php:140
+msgid "ex: http://themebeans.com"
+msgstr ""
+
+#: inc/meta/meta-post.php:158
+msgid "Quote Post Format Settings"
+msgstr ""
+
+#: inc/meta/meta-post.php:163
+msgid "Quote Text:"
+msgstr ""
+
+#: inc/meta/meta-post.php:164
+msgid "Insert your quote into this textarea."
+msgstr ""
+
+#: inc/meta/meta-post.php:169
+msgid "Quote Source:"
+msgstr ""
+
+#: inc/meta/meta-post.php:170
+msgid "Who said the quote above?"
+msgstr ""
+
+#: inc/meta/meta-post.php:188
+msgid "Video Post Format Settings"
+msgstr ""
+
+#: inc/meta/meta-post.php:193
+msgid "Embeded Code:"
+msgstr ""
+
+#: inc/meta/meta-post.php:194
+msgid "Include your video embed code here."
+msgstr ""
+
+#: inc/meta/meta-team.php:27
+msgid "Team Member Settings"
+msgstr ""
+
+#: inc/meta/meta-team.php:34
+msgid "Role:"
+msgstr ""
+
+#: inc/meta/meta-team.php:35
+msgid "Display this team member&#39;s position."
+msgstr ""
+
+#: inc/meta/meta-team.php:41
+msgid "Quote:"
+msgstr ""
+
+#: inc/meta/meta-team.php:42
+msgid "Display a small quote on image hover."
+msgstr ""
+
+#: inc/meta/meta-team.php:48
+msgid "External URL:"
+msgstr ""
+
+#: inc/meta/meta-team.php:49
+msgid "Insert a URL to link this team member to."
+msgstr ""
+
+#: inc/widgets/widget-flickr.php:39
+msgid "Add a Flickr feed widget."
+msgstr ""
+
+#: inc/widgets/widget-flickr.php:146
+msgid "Title / Intro:"
+msgstr ""
+
+#: inc/widgets/widget-flickr.php:155
+msgid "Flickr ID:"
+msgstr ""
+
+#: inc/widgets/widget-flickr.php:160
+msgid "Type:"
+msgstr ""
+
+#: inc/widgets/widget-flickr.php:168
+msgid "Display:"
+msgstr ""
+
+#: inc/widgets/widget-video.php:35
+msgid "Displays embedded video content."
+msgstr ""
+
+#: inc/widgets/widget-video.php:119
+msgid "Video Embed Code:"
+msgstr ""
+
+#: loop-team.php:48
+msgid "[Edit]"
+msgstr ""
+
+#: rcp/change-password.php:7
+msgid "Password changed successfully"
+msgstr ""
+
+#: rcp/change-password.php:13
+msgid "New Password"
+msgstr ""
+
+#: rcp/change-password.php:17
+msgid "Password Confirm"
+msgstr ""
+
+#: rcp/change-password.php:24
+msgid "Change Password"
+msgstr ""
+
+#: rcp/login.php:11 rcp/login.php:44 rcp/register.php:14 template-rcp.php:25
+msgid "Username"
+msgstr ""
+
+#: rcp/login.php:15 rcp/login.php:45 rcp/register.php:22 template-rcp.php:27
+msgid "Password"
+msgstr ""
+
+#: rcp/login.php:30
+msgid "Don&#39t have an account? Subscribe now &rarr;"
+msgstr ""
+
+#: rcp/login.php:34
+msgid "Lost your password?"
+msgstr ""
+
+#: rcp/login.php:52
+msgid "Oh yea, I&#39;m already logged in. Take me back &rarr;"
+msgstr ""
+
+#: rcp/profile-editor.php:17
+msgid "Success"
+msgstr ""
+
+#: rcp/profile-editor.php:17
+msgid "Your profile has been updated."
+msgstr ""
+
+#: rcp/profile-editor.php:19
+msgid "Edit your Account Information"
+msgstr ""
+
+#: rcp/profile-editor.php:26
+msgid "Personal Info"
+msgstr ""
+
+#: rcp/profile-editor.php:28
+msgid "First Name"
+msgstr ""
+
+#: rcp/profile-editor.php:32
+msgid "Last Name"
+msgstr ""
+
+#: rcp/profile-editor.php:36 template-rcp-lostpass.php:39 template-rcp.php:26
+msgid "Email Address"
+msgstr ""
+
+#: rcp/profile-editor.php:40
+msgid "Modify Password"
+msgstr ""
+
+#: rcp/profile-editor.php:51
+msgid "Save Changes"
+msgstr ""
+
+#: rcp/profile-editor.php:55
+msgid "After changing your password, you must log back in"
+msgstr ""
+
+#: rcp/profile-editor.php:59
+msgid "Enter a new password"
+msgstr ""
+
+#: rcp/profile-editor.php:60 template-rcp.php:28
+msgid "Confirm Password"
+msgstr ""
+
+#: rcp/profile-editor.php:67
+msgid "Login to edit your profile."
+msgstr ""
+
+#: rcp/register.php:26
+msgid "Password Again"
+msgstr ""
+
+#: rcp/register.php:38
+msgid "Choose your subscription level"
+msgstr ""
+
+#: rcp/register.php:45
+msgid "free"
+msgstr ""
+
+#: rcp/register.php:46
+msgid "unlimited"
+msgstr ""
+
+#: rcp/register.php:55
+msgid "You have not created any subscription levels yet"
+msgstr ""
+
+#: rcp/register.php:62
+msgid "Discount Code"
+msgstr ""
+
+#: rcp/register.php:63
+msgid "Valid"
+msgstr ""
+
+#: rcp/register.php:64
+msgid "Invalid"
+msgstr ""
+
+#: rcp/register.php:81
+msgid "Choose Your Payment Method"
+msgstr ""
+
+#: rcp/register.php:96
+msgid "Create your Account"
+msgstr ""
+
+#: rcp/register.php:103
+msgid "Already have an account? Login &rarr;"
+msgstr ""
+
+#: searchform.php:13
+msgid "Click to search..."
+msgstr ""
+
+#: single-attachment.php:21
+msgid "Uploaded "
+msgstr ""
+
+#: single.php:169 template-site-map.php:55
+msgid "Pages:"
+msgstr ""
+
+#: template-archives.php:49
+msgid "Lastest"
+msgstr ""
+
+#: template-archives.php:58
+msgid "Monthly"
+msgstr ""
+
+#: template-archives.php:62
+msgid "Categories"
+msgstr ""
+
+#: template-contact.php:101
+msgid "Awesome! Your message has been sent!"
+msgstr ""
+
+#: template-contact.php:111
+msgid "Well now... an error occured. Please try again."
+msgstr ""
+
+#: template-contact.php:130
+msgid "Message "
+msgstr ""
+
+#: template-contact.php:135
+msgid "Name "
+msgstr ""
+
+#: template-contact.php:140
+msgid "Email "
+msgstr ""
+
+#: template-rcp-lostpass.php:27
+msgid "Reset My Password"
+msgstr ""
+
+#: template-rcp-lostpass.php:34
+msgid "Nevermind, I remember now"
+msgstr ""
+
+#: template-rcp-lostpass.php:49 template-rcp.php:38
+msgid "You are already logged in. Go back &rarr;"
+msgstr ""
+
+#: template-team.php:39
+msgid "Plugin Not Found"
+msgstr ""
+
+#: template-team.php:40
+msgid "It looks like you have not installed or activated the Bean Team plugin."
+msgstr ""

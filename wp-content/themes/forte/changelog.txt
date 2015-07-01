@@ -1,0 +1,50 @@
+1.2.0 - Apr 30, 2015
+
+** Forte Changelog **
+
+30 April 2015 - Version 1.2.0
+	* XSS fix
+	* Theme Customizer UI improvements
+	* bean_custom_form_filters comments 4.2+ fix
+	* Framework updated to v2.2.5
+		- Updated Theme Customizer UI
+		- Updated Custom CSS Editor
+	* Updated languages
+
+2 March 2015 - Version 1.1.2
+	* Disqus comments plugin support (NEW)
+
+1 March 2015 - Version 1.1.1
+	* Password protected post update
+	* Visual post editor touch ups
+	* Updated languages
+
+12 February 2015 - Version 1.1.0
+	* Support for the free Bean Team plugin (NEW)
+		-loop-team.php
+		-content-team.php
+		-template-team.php
+		-inc/meta/meta-team.php
+	* Fixed post-to-post categorized navigation
+	* Added if post_thumbnail to pages
+	* Updated languages
+
+5 February 2015 - Version 1.0.4
+	* Mailbag password protected update
+	* Updated languages
+
+4 February 2015- Version 1.0.3
+	* Added iframe embedded video background support
+	* Safari/iOS mobile optimizations
+	* Updated languages
+
+3 February 2015 - Version 1.0.2
+	* Skrollr body id tag fix (Android)
+	* Updated languages
+
+2 February 2015 - Version 1.0.1
+	* Safari comments fix
+	* Updated languages
+
+1 February 2015 - Version 1.0.0
+	* Initial release
