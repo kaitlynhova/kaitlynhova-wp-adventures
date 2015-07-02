@@ -50,10 +50,19 @@ if ( !is_404() ) {
 
 <body <?php body_class($heroheader); ?>> <?php bean_body_start(); ?>
 
-  <div class="row">
-    <div class="col-md-4">.col-md-4</div>
-    <div class="col-md-4">.col-md-4</div>
-    <div class="col-md-4">.col-md-4</div>
+  <div class=" hidden-sm hidden-xs">
+    <div class="col-md-6">
+      <p>Kaitlyn Hova</p>
+    </div>
+    <div class="col-md-6">
+      <ul id="top-nav-ul">
+        <li>ABOUT</li>
+        <li>MUSIC</li>
+        <li>VIDEO</li>
+        <li>ART</li>
+        <li>BOG</li>
+      </ul>
+    </div>
   </div>
 
 	<?php if ( !is_404() && !is_page_template('template-underconstruction.php')) { //HIDE THIS ON 404/UNDER CONSTRUCTION TEMPLATES ?>
@@ -64,15 +73,5 @@ if ( !is_404() ) {
 
 				<div id="page" class="hfeed site">
 
-					<header id="header" class="header">
-
-						<?php get_template_part( 'content', 'logo' ); ?>
-
-						<?php if( get_theme_mod( 'hidden_sidebar' ) == true) { ?>
-							<a class="sidebar-btn" href="javascript:void(0);"><span></span></a>
-							<div class="nav-overlay"></div>
-						<?php } ?>
-
-					</header><!-- END #header -->
 
 	<?php } //END if ( !is_404()...

@@ -29,7 +29,11 @@ Textdomain: bean
 16. Cross Browser
 
 =====================================================================*/
+/* CUSTOM NAV STYLES */
 
+#top-nav-ul li{
+  display: inline;
+}
 
 
 
