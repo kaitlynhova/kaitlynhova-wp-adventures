@@ -55,11 +55,11 @@ if ( !is_404() ) {
   <div id="top-nav-static" class="hidden-xs tk-europa">
     <p class="top-logo">KAITLYN HOVA</p>
     <ul id="top-nav-ul">
-      <li>ABOUT</li>
-      <li>MUSIC</li>
-      <li>VIDEO</li>
-      <li>ART</li>
-      <li>BLOG</li>
+      <li><a href="http://kaitlynhova.com/rightbrain/">ABOUT</a></li>
+      <li> <a href="http://kaitlynhova.com/rightbrain/music">MUSIC </a></li>
+      <li> <a href="http://kaitlynhova.com/rightbrain/video">VIDEO</a></li>
+      <li> <a href="http://kaitlynhova.com/rightbrain/art">ART</a></li>
+      <li> <a href="http://kaitlynhova.com/adventures">BLOG</a></li>
     </ul>
   </div>
 
@@ -74,11 +74,11 @@ if ( !is_404() ) {
     <button type="button" class="overlay-close">Close</button>
     <nav>
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Work</a></li>
-        <li><a href="#">Clients</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="http://kaitlynhova.com/rightbrain/">ABOUT</a></li>
+        <li> <a href="http://kaitlynhova.com/rightbrain/music">MUSIC </a></li>
+        <li> <a href="http://kaitlynhova.com/rightbrain/video">VIDEO</a></li>
+        <li> <a href="http://kaitlynhova.com/rightbrain/art">ART</a></li>
+        <li> <a href="http://kaitlynhova.com/adventures">BLOG</a></li>
       </ul>
     </nav>
   </div>

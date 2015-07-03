@@ -91,6 +91,7 @@ Textdomain: bean
   float: right;
   border: 1px solid white;
   padding: 8px;
+  cursor: pointer;
 }
 
 
@@ -160,7 +161,8 @@ Textdomain: bean
 
 .overlay ul li a:hover,
 .overlay ul li a:focus {
-	opacity: .1;
+	opacity: .7;
+  text-decoration: none;
 }
 
 /* Effects */
