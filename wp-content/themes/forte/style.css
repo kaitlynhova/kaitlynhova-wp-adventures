@@ -110,6 +110,17 @@ Textdomain: bean
   cursor: pointer;
 }
 
+/* ipad specific styles*/
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+    .top-logo {
+        position: absolute;
+        top: 20px !important;
+    }
+}
+
 
 /* OVERLAY STYLES */
 /* Overlay style */
