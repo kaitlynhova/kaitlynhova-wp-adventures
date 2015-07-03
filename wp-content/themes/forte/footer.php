@@ -40,10 +40,11 @@ bean_body_end(); //PULLS DEBUG INFO ?>
 
 				<div class="footer-colophon">
 
-					
+
 
 				</div><!-- END .footer-colophon -->
-
+				<script type="text/javascript" src="http://localhost:8888/wp-content/themes/forte/assets/js/classie.js"></script>
+				<script type="text/javascript" src="http://localhost:8888/wp-content/themes/forte/assets/js/demo1.js"></script>
 			</footer><!-- END #footer-->
 
 		</div><!-- END #theme-wrapper -->

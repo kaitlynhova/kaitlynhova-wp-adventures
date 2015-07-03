@@ -33,6 +33,7 @@
 	<?php echo get_theme_mod( 'google_analytics' ); ?>
 
 	<?php bean_head(); wp_head(); ?>
+  				<script type="text/javascript" src="http://localhost:8888/wp-content/themes/forte/assets/js/modernizr.custom.js"></script>
 </head>
 
 <?php
@@ -65,8 +66,21 @@ if ( !is_404() ) {
   <div id="mobile-menu" class="visible-xs">
     <div class="mobile-menu-text">
       <p class="top-logo">KAITLYN HOVA</p>
-      <p class="mobile-menu-btn">menu</p>
+      <p id="trigger-overlay" class="mobile-menu-btn">menu</p>
     </div>
+  </div>
+
+  <div class="overlay overlay-hugeinc visible-xs">
+    <button type="button" class="overlay-close">Close</button>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Work</a></li>
+        <li><a href="#">Clients</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
   </div>
 
 	<?php if ( !is_404() && !is_page_template('template-underconstruction.php')) { //HIDE THIS ON 404/UNDER CONSTRUCTION TEMPLATES ?>
