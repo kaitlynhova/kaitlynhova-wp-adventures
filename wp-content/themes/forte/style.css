@@ -37,6 +37,12 @@ Textdomain: bean
   font-size: 20px;
 }
 
+.top-logo a {
+  border-bottom: 0px;
+  text-decoration: none !important;
+  color: white !important;
+}
+
 #top-nav-static {
   padding-left: 15px;
   font-family: 'Cabin', Helvetica, sans-serif;
@@ -59,12 +65,22 @@ Textdomain: bean
 
 #top-nav-ul{
   text-align:right;
-  word-spacing: 20px;
+  word-spacing: 4px;
 }
 
 #top-nav-ul li{
   display: inline;
   padding: 10px;
+}
+
+#top-nav-ul li a{
+  color: whitesmoke;
+}
+
+#top-nav-ul li a:hover{
+  color: whitesmoke;
+  text-decoration: none;
+  opacity: .7;
 }
 
 #mobile-menu{
@@ -82,7 +98,7 @@ Textdomain: bean
 }
 .mobile-menu-text{
   position: relative;
-  top: 22px;
+  top: 13px;
   padding-right: 20px;
   padding-left: 20px;
 }

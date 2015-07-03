@@ -65,7 +65,7 @@ if ( !is_404() ) {
 
   <div id="mobile-menu" class="visible-xs">
     <div class="mobile-menu-text">
-      <p class="top-logo">KAITLYN HOVA</p>
+      <p class="top-logo"><a href="http://www.kaitlynhova.com/">KAITLYN HOVA</a></p>
       <p id="trigger-overlay" class="mobile-menu-btn">menu</p>
     </div>
   </div>
