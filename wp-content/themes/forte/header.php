@@ -29,6 +29,7 @@
 	<link rel="alternate" type="application/rss+xml" title="<?php bloginfo( 'name' ); ?> RSS Feed" href="<?php bloginfo( 'rss2_url' ); ?>" />
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 	<link href='http://fonts.googleapis.com/css?family=Hind' rel='stylesheet' type='text/css'>
+
 	<?php echo get_theme_mod( 'google_analytics' ); ?>
 
 	<?php bean_head(); wp_head(); ?>
@@ -50,18 +51,21 @@ if ( !is_404() ) {
 
 <body <?php body_class($heroheader); ?>> <?php bean_body_start(); ?>
 
-  <div class=" hidden-sm hidden-xs">
-    <div class="col-md-6">
-      <p>Kaitlyn Hova</p>
-    </div>
-    <div class="col-md-6">
-      <ul id="top-nav-ul">
-        <li>ABOUT</li>
-        <li>MUSIC</li>
-        <li>VIDEO</li>
-        <li>ART</li>
-        <li>BOG</li>
-      </ul>
+  <div id="top-nav-static" class="hidden-xs tk-europa">
+    <p class="top-logo">KAITLYN HOVA</p>
+    <ul id="top-nav-ul">
+      <li>ABOUT</li>
+      <li>MUSIC</li>
+      <li>VIDEO</li>
+      <li>ART</li>
+      <li>BLOG</li>
+    </ul>
+  </div>
+
+  <div id="mobile-menu" class="visible-xs">
+    <div class="mobile-menu-text">
+      <p class="top-logo">KAITLYN HOVA</p>
+      <p class="mobile-menu-btn">menu</p>
     </div>
   </div>
 

@@ -31,8 +31,66 @@ Textdomain: bean
 =====================================================================*/
 /* CUSTOM NAV STYLES */
 
+.top-logo{
+  position: absolute;
+  font-family: 'Cabin', Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+#top-nav-static {
+  padding-left: 15px;
+  font-family: 'Cabin', Helvetica, sans-serif;
+  padding-right: 15px;
+  padding-top: 20px;
+  position: fixed;
+  width: 100% !important;
+  max-width: none !important;
+  text-align: center;
+  color: whitesmoke;
+  background: rgba(0,0,0,.7);
+  padding: 20px;
+  top: 0px!important;
+  z-index: 2;
+  font-size: 13px;
+  letter-spacing: 5px;
+  height: 75px;
+  color: whitesmoke;
+}
+
+#top-nav-ul{
+  text-align:right;
+  word-spacing: 20px;
+}
+
 #top-nav-ul li{
   display: inline;
+  padding: 10px;
+}
+
+#mobile-menu{
+  position: fixed;
+  width: 100% !important;
+  font-family: 'Cabin', Helvetica, sans-serif;
+  max-width: none !important;
+  text-align: center;
+  color: whitesmoke;
+  background: rgba(0,0,0,.7);
+  top: 0px!important;
+  z-index: 2;
+  font-size: 18px;
+  letter-spacing: 5px;
+}
+.mobile-menu-text{
+  position: relative;
+  top: 17px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.mobile-menu-btn{
+  float: right;
+  border: 1px solid white;
+  padding: 8px;
 }
 
 
@@ -84,6 +142,9 @@ img { -ms-interpolation-mode: bicubic; }
 
 /* RESPONSIVE */
 @media only screen and (max-width: 768px) {
+  .top-logo {
+    top: 12px;
+    }
      .row { width: auto; min-width: 0; margin-left: 0; margin-right: 0; }
      .row .row { }
      .column, .columns { padding: 0px; }
@@ -1157,7 +1218,7 @@ body.page-template-template-underconstruction-php .entry-content a:hover {
 }
 
 .post-grid.lrg {
-     height: 800px;
+     height: 500px;
      width: 100%;
 }
 
@@ -1167,7 +1228,7 @@ body.page-template-template-underconstruction-php .entry-content a:hover {
 }
 
 .post-grid:first-of-type {
-	margin-top: 0;
+	margin-top: -30px;
 }
 
 .post-grid:nth-of-type(3n+2),
