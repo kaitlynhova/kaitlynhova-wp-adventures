@@ -29,6 +29,41 @@ Textdomain: bean
 16. Cross Browser
 
 =====================================================================*/
+
+/* CUSTOM FOOTER */
+footer {
+  background: black !important;
+  color: white;
+  padding-top: 39px !important;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+footer a {
+  color: white !important;
+  font-family: 'Cabin', Helvetica, sans-serif;
+  transition: .5s;
+}
+
+.left-text {
+  text-align: left;
+  font-size: 27px;
+  letter-spacing: 10px;
+  color: white;
+  margin-left: 15px;
+}
+
+.right-text {
+  text-align: right;
+  color: white;
+  padding-right: 15px;
+}
+
+footer a:hover {
+  text-decoration: none;
+  color: #df3f3f !important;
+}
+
 /* CUSTOM NAV STYLES */
 
 .top-logo{
@@ -974,7 +1009,6 @@ div.wpcf7 img.ajax-loader {
 }
 
 .footer-colophon {
-	border-top: 1px solid #E3E3E3;
 	color: #BBB;
 	float: left;
 	font-family: 'Cabin', Helvetica, sans-serif;

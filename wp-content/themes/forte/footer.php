@@ -17,6 +17,23 @@ bean_body_end(); //PULLS DEBUG INFO ?>
 			</div><!-- END #page -->
 
 			<footer id="footer" class="footer<?php if ( get_theme_mod( 'infinitescroll' ) == true ) { echo ' infinite'; } ?> <?php if ( comments_open() && is_page() && post_type_supports( get_post_type(), 'comments' ) ) { echo 'open-comments'; } ?>">
+			  <div class="footer-content">
+				  	<div class="large-6 small-6 columns left-text">
+				    	<a href="https://twitter.com/KaitlynHova" target="_blank"><i class="fa fa-twitter"></i></a>
+				    	<a href="https://instagram.com/kaitlynhova/" target="_blank"><i class="fa fa-instagram"></i></a>
+				    	<a href="https://www.facebook.com/KaitlynHova" target="_blank"><i class="fa fa-facebook"></i></a>
+				    </div>
+				    <div class="large-6 small-6 right-text">
+							<ul id="footer-menu">
+								<li>
+									<a href="http://kaitlynhova.com/adventures/contact">CONTACT</a>
+								</li>
+								<li>
+									<a href="http://www.kaitlynhova.com/rightbrain/press" target="_blank"><p class="press-button">PRESS</p></a>
+								</li>
+							</ul>
+					  </div>
+			  </div>
 
 				<?php if( is_active_sidebar( 'footer-col-1' ) OR is_active_sidebar( 'footer-col-2' ) OR is_active_sidebar( 'footer-col-3' )) { ?>
 

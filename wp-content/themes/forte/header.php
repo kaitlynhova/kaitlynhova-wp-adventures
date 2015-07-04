@@ -29,7 +29,7 @@
 	<link rel="alternate" type="application/rss+xml" title="<?php bloginfo( 'name' ); ?> RSS Feed" href="<?php bloginfo( 'rss2_url' ); ?>" />
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 	<link href='http://fonts.googleapis.com/css?family=Hind' rel='stylesheet' type='text/css'>
-
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 	<?php echo get_theme_mod( 'google_analytics' ); ?>
 
 	<?php bean_head(); wp_head(); ?>
