@@ -243,6 +243,9 @@ a.meanmenu-reveal {
 
 /* 768px */
 @media only screen and (max-width: 768px) {
+		.entry-content .entry-excerpt{
+			margin-top: 0px;
+		}
 
      .header { padding: 8% 0 10.8%; }
 
