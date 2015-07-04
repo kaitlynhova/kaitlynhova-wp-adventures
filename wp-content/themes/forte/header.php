@@ -59,7 +59,7 @@ if ( !is_404() ) {
       <li> <a href="http://kaitlynhova.com/rightbrain/music">MUSIC </a></li>
       <li> <a href="http://kaitlynhova.com/rightbrain/video">VIDEO</a></li>
       <li> <a href="http://kaitlynhova.com/rightbrain/art">ART</a></li>
-      <li> <a href="http://kaitlynhova.com/adventures">BLOG</a></li>
+      <li> <a href="/">BLOG</a></li>
     </ul>
   </div>
 
@@ -78,7 +78,7 @@ if ( !is_404() ) {
         <li> <a href="http://kaitlynhova.com/rightbrain/music">MUSIC </a></li>
         <li> <a href="http://kaitlynhova.com/rightbrain/video">VIDEO</a></li>
         <li> <a href="http://kaitlynhova.com/rightbrain/art">ART</a></li>
-        <li> <a href="http://kaitlynhova.com/adventures">BLOG</a></li>
+        <li> <a href="/">BLOG</a></li>
       </ul>
     </nav>
   </div>

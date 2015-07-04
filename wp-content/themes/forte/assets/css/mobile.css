@@ -221,6 +221,24 @@ a.meanmenu-reveal {
 	}
 
 	.sml .byline span { display: block; }
+
+	.readmore{
+		border: 1px solid white;
+		max-width: 141px;
+		display: block;
+		margin: 0 auto;
+		margin-top: 60px;
+		transition: .5s;
+		color: white !important;
+	}
+	.readmore:hover{
+		background-color: #df3f3f;
+		border: 1px solid #df3f3f;
+		text-decoration: none !important;
+	}
+	.byline a:hover{
+			text-decoration: none !important;
+	}
 }
 
 /* 768px */
@@ -324,11 +342,11 @@ a.meanmenu-reveal {
 	}
 
 	.byline {
-		bottom: 190px;
-		left: 0;
-		opacity: 1;
-		width: 100%;
-		text-align: center;
+		bottom: 211px;
+	  left: 0px;
+	  opacity: 1;
+	  width: 100%;
+	  text-align: center;
 	}
 
 	.byline span {
@@ -595,18 +613,6 @@ a.meanmenu-reveal {
      .post-grid .entry-excerpt {
           display: none;
      }
-		.readmore{
-			border: 1px solid white;
-			max-width: 141px;
-			display: block;
-			margin: 0 auto;
-			margin-top: 60px;
-			transition: .5s;
-		}
-		.readmore:hover{
-			background-color: #df3f3f;
-			border: 1px solid #df3f3f;
-		}
      .post-grid .byline {
 			  bottom: 150px;
 	}

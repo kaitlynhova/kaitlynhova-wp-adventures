@@ -57,8 +57,8 @@ get_header(); ?>
 
 			<div class="post-cover post-cover-<?php the_ID(); ?>" style='<?php echo esc_html( $style ); ?>'></div>
 
-			<a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', 'bean' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark" class="post-cover-link" style="background-color: <?php echo esc_html( $post_cover_color );  ?>;"></a>
-
+			<a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', 'bean' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark" class="post-cover-link hidden-xs" style="background-color: <?php echo esc_html( $post_cover_color );  ?>;"></a>
+			<div title="Permalink to more posts" rel="bookmark" class="post-cover-link visible-xs" style="background-color: #000000;"></div>
 			<div class="post-content">
 
 				<header class="entry-header">
@@ -87,7 +87,7 @@ get_header(); ?>
 				<div class="entry-author byline">
 					<a class="hidden-xs" href="<?php echo get_author_posts_url(get_the_author_meta( 'ID' )); ?>"><?php echo get_avatar( get_the_author_meta('user_email'), '75', '' ); ?></a>
 					<span><a href="<?php echo get_author_posts_url(get_the_author_meta( 'ID' )); ?>"><?php the_author(); ?></a> <?php _e( 'on ', 'bean' ); the_time(get_option('date_format')); ?></span>
-					<a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', 'bean' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark" class="post-cover-link" style="">
+					<a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', 'bean' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark"  style="">
 						<p class="readmore hidden-lg hidden-md hidden-sm"> READ MORE</p>
 					</a>
 				</div><!-- END .byline -->
