@@ -142,8 +142,9 @@ if ( $feat_image == true ) {
 				<li><?php echo the_tags( '', ',', '' ); ?></li>
 			<?php } ?>
 
+			<?php if( get_theme_mod( 'post_likes' ) == true) { ?>
 				<li><?php Bean_PrintLikes($post->ID); ?></li>
-
+			<?php } ?>
 
 		</ul><!-- END .entry-meta -->
 
@@ -199,7 +200,7 @@ if ( $feat_image == true ) {
 	}
 
 	//RELATED POSTS
-	if (  true ) {
+	if ( true ) {
 		$terms = get_the_terms( $post->ID, 'category' );
 		if ( $terms && ! is_wp_error( $terms ) ) :
 			get_template_part( 'content', 'post-related' );
