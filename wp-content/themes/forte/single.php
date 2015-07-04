@@ -142,7 +142,7 @@ if ( $feat_image == true ) {
 				<li><?php echo the_tags( '', ',', '' ); ?></li>
 			<?php } ?>
 
-			<?php if( get_theme_mod( 'post_likes' ) == true) { ?>
+			<?php if(  true) { ?>
 				<li><?php Bean_PrintLikes($post->ID); ?></li>
 			<?php } ?>
 

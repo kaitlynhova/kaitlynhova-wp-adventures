@@ -65,7 +65,7 @@ function Bean_PrintLikes($post_id)
 		print '<a href="#" class="bean-likes active" id="like-'.$post_id.'">'.$likes.'</a>';
 			return;
 		}
-		print '<a href="#" class="bean-likes active" id="like-'.$post_id.'">'.$likes.'</a>';
+		print '<a href="#" class="bean-likes" id="like-'.$post_id.'">'.$likes.'</a>';
 }
 
 function Bean_SetUpPostLikes($post_id)
