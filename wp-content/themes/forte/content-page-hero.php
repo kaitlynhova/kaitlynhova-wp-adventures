@@ -16,17 +16,17 @@ if ( $feat_image == true ) {
 <article id="post-<?php the_ID(); ?>" <?php post_class('row post-grid head fadein'); ?>>
 
 	<?php if( $video_background_upload ) { ?>
-	
+
 		<video class="background-video" autoplay="" loop="" muted="">
 			<source src="<?php echo esc_html( $video_background_upload ); ?>" type="video/mp4">
 		</video>
-	
+
 	<?php } elseif ($embedded_background_upload) { ?>
-	
+
 		<div class="background-video embedded">
 			<?php echo stripslashes(htmlspecialchars_decode($embedded_background_upload)); ?>
 		</div>
-	
+
 	<?php } else { } ?>
 
 	<div class="post-cover post-cover-<?php the_ID(); ?>" style="<?php echo esc_html( $style ); ?>"></div>
@@ -38,7 +38,7 @@ if ( $feat_image == true ) {
 		<header class="entry-header">
 
 			<h1 class="entry-title">
-				<?php the_title(); ?>				
+				<?php the_title(); ?>
 			</h1><!-- END .entry-title -->
 
 		</header><!-- END .entry-header -->
