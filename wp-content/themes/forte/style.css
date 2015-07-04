@@ -1411,13 +1411,14 @@ body.page-template-template-underconstruction-php .entry-content a:hover {
 }
 
 .post-cover-link {
-     background-color: #000;
      bottom: 0;
      height: 100%;
      left: 0;
      opacity: .4;
      position: absolute;
      right: 0;
+     color: white !important;
+     text-decoration: none !important;
      top: 0;
      width: 100%;
      z-index: 1001;

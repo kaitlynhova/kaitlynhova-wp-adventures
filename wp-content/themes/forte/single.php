@@ -2,7 +2,7 @@
 /**
  * The template for displaying all single posts.
  *
- * 
+ *
  * @package WordPress
  * @subpackage Forte
  * @author ThemeBeans
@@ -26,7 +26,7 @@ $embed = get_post_meta($post->ID, '_bean_video_embed', true);
 $video_background_upload = get_post_meta($post->ID, '_bean_video_background_upload', true);
 $embedded_background_upload = get_post_meta($post->ID, '_bean_embedded_background_upload', true);
 
-//META 
+//META
 $social_feat_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
 $twitter_profile = get_theme_mod( 'twitter_profile' );
 $terms = get_the_terms( $post->ID, 'category' );
@@ -45,17 +45,17 @@ if ( $feat_image == true ) {
 	<article id="post-<?php the_ID(); ?>" <?php post_class('row post-grid head fadein'); ?>>
 
 		<?php if( $video_background_upload ) { ?>
-		
+
 			<video class="background-video" autoplay="" loop="" muted="">
 				<source src="<?php echo esc_html( $video_background_upload ); ?>" type="video/mp4">
 			</video>
-		
+
 		<?php } elseif ($embedded_background_upload) { ?>
-		
+
 			<div class="background-video embedded">
 				<?php echo stripslashes(htmlspecialchars_decode($embedded_background_upload)); ?>
 			</div>
-		
+
 		<?php } else { } ?>
 
 		<div class="post-cover post-cover-<?php the_ID(); ?>" style="<?php echo esc_html( $style ); ?>"></div>
@@ -69,7 +69,7 @@ if ( $feat_image == true ) {
 				<?php if( $format == 'quote') { ?>
 
 					<blockquote><?php echo stripslashes( esc_html($quote) ); ?></blockquote>
-		
+
 				<?php } elseif( $format == 'link') { ?>
 
 					<a target="blank" href="<?php echo esc_url($link); ?>">
@@ -79,7 +79,7 @@ if ( $feat_image == true ) {
 				<?php } else { ?>
 
 					<h1 class="entry-title">
-						<?php the_title(); ?>				
+						<?php the_title(); ?>
 					</h1><!-- END .entry-title -->
 
 				<?php } ?>
@@ -87,32 +87,32 @@ if ( $feat_image == true ) {
 			</header><!-- END .entry-header -->
 
 			<?php if( $format == 'quote') { ?>
-				
+
 				<div class="entry-excerpt">
 					<h5><?php echo stripslashes( esc_html($quote_source) ); ?></h5>
 				</div><!-- END .entry-excerpt -->
 
 			<?php } elseif( $format == 'link' ) { ?>
-				
+
 				<div class="entry-excerpt">
 					<a target="blank" href="<?php echo esc_url($link); ?>">
 						<h5>
-							<?php if($link_title) { 
-								echo stripslashes( esc_html($link_title)); 
-							} else { 
-								echo stripslashes( esc_html($link)); 
+							<?php if($link_title) {
+								echo stripslashes( esc_html($link_title));
+							} else {
+								echo stripslashes( esc_html($link));
 							}; ?>
 						</h5>
 					</a>
 				</div><!-- END .entry-excerpt -->
 
 			<?php } else {
-				if ( $post_subtitle ) 
+				if ( $post_subtitle )
 				{ ?>
 					<div class="entry-excerpt">
 						<h5><?php echo esc_html( $post_subtitle ); ?></h5>
 					</div><!-- END .entry-excerpt -->
-				<?php 
+				<?php
 				}
 			} ?>
 
@@ -121,19 +121,19 @@ if ( $feat_image == true ) {
 		<?php if( get_theme_mod( 'show_author' ) == true) { ?>
 
 			<div class="entry-author byline">
-		
+
 				<a href="<?php echo get_author_posts_url(get_the_author_meta( 'ID' )); ?>"><?php echo get_avatar( get_the_author_meta('user_email'), '75', '' ); ?></a>
 
 				<span><a href="<?php echo get_author_posts_url(get_the_author_meta( 'ID' )); ?>"><?php the_author(); ?></a> <?php _e( 'on ', 'bean' ); echo the_time('M j, Y'); ?></span>
 
 			</div><!-- END .byline -->
-			
+
 		<?php } ?>
 
 		<div class="down-arrow" data-0="opacity:1;" data-50="opacity:0;"></div>
 
 		<ul class="entry-meta" data-0="opacity:0;" data-50="opacity:1;">
-			
+
 			<?php if ( $terms && ! is_wp_error( $terms ) ) : ?>
 				<li><?php the_terms($post->ID, 'category', '', ', ', ''); ?></li>
 			<?php endif;?>
@@ -163,7 +163,7 @@ if ( $feat_image == true ) {
 			} ?>
 
 			<?php if( $format == 'audio') { bean_audio($post->ID); } ?>
-			
+
 			<?php the_content(); ?>
 
 			<?php wp_link_pages( array( 'before' => '<div class="page-link"><span>' . __( 'Pages:', 'bean' ) . '</span>', 'after' => '</div>' ) ); ?>
@@ -171,7 +171,7 @@ if ( $feat_image == true ) {
 			<?php get_template_part( 'content', 'mailbag' ); ?>
 
 		</div><!-- END .entry-content -->
-			
+
 	</div><!-- END .row -->
 
 	<div class="entry-navigation">
@@ -191,7 +191,7 @@ if ( $feat_image == true ) {
 		<div class="next"><?php next_post_link( '%link', '<span class="title">%title</span><span class="arrow"></span>'); ?></div>
 	</div><!-- END .entry-navigation -->
 
-	<?php 
+	<?php
 	//COMMENTS
 	if( bean_theme_supports( 'comments', 'posts' )) {
 		bean_comments_start();
@@ -206,7 +206,7 @@ if ( $feat_image == true ) {
 			get_template_part( 'content', 'post-related' );
 		endif;
 	}
-	 
+
 endwhile; endif;
 
 get_footer();

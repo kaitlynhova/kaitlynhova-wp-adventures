@@ -18,27 +18,27 @@
 get_header(); ?>
 
 <div id="posts-container" class="posts-container">
-	
-	<?php 
+
+	<?php
 	//GET THE COUNT
-	$i = 1; 
+	$i = 1;
 
 	//QUERY
-	if (have_posts()) : while (have_posts()) : the_post(); 
+	if (have_posts()) : while (have_posts()) : the_post();
 
 		//LRG VS SML LAYOUTS
 		$thumbnail = (
-		$i == 1 || 
-		$i == 4 || 
-		$i == 7 || 
-		$i == 10 || 
-		$i == 13 || 
-		$i == 16 || 
+		$i == 1 ||
+		$i == 4 ||
+		$i == 7 ||
+		$i == 10 ||
+		$i == 13 ||
+		$i == 16 ||
 		$i == 19 ||
-		$i == 23 || 
+		$i == 23 ||
 		$i == 26 ||
-		$i == 29 || 
-		$i == 32 ||  
+		$i == 29 ||
+		$i == 32 ||
 		$i == 35 ) ? 'post-grid lrg fadein' : 'post-grid sml fadein';
 
 		$post_subtitle = get_post_meta($post->ID, '_bean_post_subtitle', true);
@@ -50,7 +50,7 @@ get_header(); ?>
 			$style = 'background-image: url(' . $feat_image . ');';
 		} else {
 			$style = 'background-color: '.$post_cover_color.'';
-		} 
+		}
 		?>
 
 		<article id="post-<?php the_ID(); ?>" <?php post_class($thumbnail); ?>>
@@ -64,32 +64,32 @@ get_header(); ?>
 				<header class="entry-header">
 
 					<h2 class="entry-title">
-						<a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', 'bean' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark"><?php the_title(); ?></a>				
+						<a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', 'bean' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark"><?php the_title(); ?></a>
 					</h2><!-- END .entry-title -->
 
 				</header><!-- END .entry-header -->
 
 				<?php if ( $thumbnail == 'post-grid lrg fadein' )
 				{
-					if ( $post_subtitle ) 
+					if ( $post_subtitle )
 					{ ?>
 						<div class="entry-excerpt">
 							<h5><?php echo esc_html( $post_subtitle ); ?></h5>
 						</div><!-- END .entry-excerpt -->
-					<?php 
+					<?php
 					}
 				} ?>
 
 			</div><!-- END .post-content -->
-	
+
 			<?php if( get_theme_mod( 'show_author' ) == true) { ?>
 
 				<div class="entry-author byline">
-				
-					<a href="<?php echo get_author_posts_url(get_the_author_meta( 'ID' )); ?>"><?php echo get_avatar( get_the_author_meta('user_email'), '75', '' ); ?></a>
-
+					<a class="hidden-xs" href="<?php echo get_author_posts_url(get_the_author_meta( 'ID' )); ?>"><?php echo get_avatar( get_the_author_meta('user_email'), '75', '' ); ?></a>
 					<span><a href="<?php echo get_author_posts_url(get_the_author_meta( 'ID' )); ?>"><?php the_author(); ?></a> <?php _e( 'on ', 'bean' ); the_time(get_option('date_format')); ?></span>
-
+					<a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', 'bean' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark" class="post-cover-link" style="">
+						<p class="readmore hidden-lg hidden-md hidden-sm"> READ MORE</p>
+					</a>
 				</div><!-- END .byline -->
 
 			<?php } ?>
@@ -102,7 +102,7 @@ get_header(); ?>
 
 <?php if ( get_theme_mod( 'infinitescroll' ) == true ) { ?>
 
-	<div id="page-nav"> 
+	<div id="page-nav">
 		<?php next_posts_link(); ?>
 	</div><!-- END #page-nav -->
 
@@ -119,11 +119,11 @@ get_header(); ?>
 			}
 			});
 		});
-	</script>	
+	</script>
 
-<?php  } else { 
+<?php  } else {
 	//IF NOT USING INFINITE SCROLLING
 	echo bean_index_pagination();
-} 
+}
 
 get_footer();
