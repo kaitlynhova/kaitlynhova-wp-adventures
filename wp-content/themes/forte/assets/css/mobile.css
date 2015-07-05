@@ -227,7 +227,7 @@ a.meanmenu-reveal {
 		max-width: 141px;
 		display: block;
 		margin: 0 auto;
-		margin-top: 60px;
+		margin-top: 35px;
 		transition: .5s;
 		color: white !important;
 	}
@@ -246,6 +246,9 @@ a.meanmenu-reveal {
 		.entry-content .entry-excerpt{
 			margin-top: 0px;
 		}
+		.sml .byline {
+  	bottom: 170px;
+	}
 
      .header { padding: 8% 0 10.8%; }
 
@@ -441,7 +444,7 @@ a.meanmenu-reveal {
 @media only screen and (max-width: 736px) {
 	/* LANDSCAPE DEVICE FIX */
      .page .post-grid.head, .single-post .post-grid.head {
-         min-height: 600px!important;
+         min-height: 400px!important;
      }
 }
 
@@ -619,7 +622,7 @@ a.meanmenu-reveal {
           display: none;
      }
      .post-grid .byline {
-			  bottom: 150px;
+			bottom: 137px;
 	}
 
 	.single-post .byline {
@@ -629,7 +632,7 @@ a.meanmenu-reveal {
 
 	.page .post-grid.head,
 	.single-post .post-grid.head {
-		max-height: 700px!important;
+		max-height: 400px!important;
 	}
 
 	.single-post .entry-meta {
