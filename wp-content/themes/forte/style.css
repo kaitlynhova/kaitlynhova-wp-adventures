@@ -31,6 +31,10 @@ Textdomain: bean
 =====================================================================*/
 
 /* CUSTOM FOOTER */
+
+#top-nav-static a {
+  color: white !important;
+}
 footer {
   background: black !important;
   color: white;

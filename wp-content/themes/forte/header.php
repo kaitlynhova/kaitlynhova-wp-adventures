@@ -53,7 +53,7 @@ if ( !is_404() ) {
 <body <?php body_class($heroheader); ?>> <?php bean_body_start(); ?>
 
   <div id="top-nav-static" class="hidden-xs tk-europa">
-    <p class="top-logo">KAITLYN HOVA</p>
+    <a href="http://www.kaitlynhova.com/"><p class="top-logo">KAITLYN HOVA</p></a>
     <ul id="top-nav-ul">
       <li><a href="http://kaitlynhova.com/rightbrain/">ABOUT</a></li>
       <li> <a href="http://kaitlynhova.com/rightbrain/music">MUSIC </a></li>
