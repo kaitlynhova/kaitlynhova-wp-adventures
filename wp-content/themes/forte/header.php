@@ -50,38 +50,38 @@ if ( !is_404() ) {
 	}
 } ?>
 
-<body <?php body_class($heroheader); ?>> <?php bean_body_start(); ?>
+<div id="top-nav-static" class="hidden-xs tk-europa">
+  <a href="http://www.kaitlynhova.com/"><p class="top-logo">KAITLYN HOVA</p></a>
+  <ul id="top-nav-ul">
+    <li><a href="http://kaitlynhova.com/rightbrain/">ABOUT</a></li>
+    <li> <a href="http://kaitlynhova.com/rightbrain/music">MUSIC </a></li>
+    <li> <a href="http://kaitlynhova.com/rightbrain/video">VIDEO</a></li>
+    <li> <a href="http://kaitlynhova.com/rightbrain/art">ART</a></li>
+    <li> <a href="/">BLOG</a></li>
+  </ul>
+</div>
 
-  <div id="top-nav-static" class="hidden-xs tk-europa">
-    <a href="http://www.kaitlynhova.com/"><p class="top-logo">KAITLYN HOVA</p></a>
-    <ul id="top-nav-ul">
+<div id="mobile-menu" class="visible-xs">
+  <div class="mobile-menu-text">
+    <p class="top-logo"><a href="http://www.kaitlynhova.com/">KAITLYN HOVA</a></p>
+    <p id="trigger-overlay" class="mobile-menu-btn">menu</p>
+  </div>
+</div>
+
+<div class="overlay overlay-hugeinc visible-xs">
+  <button type="button" class="overlay-close">Close</button>
+  <nav>
+    <ul>
       <li><a href="http://kaitlynhova.com/rightbrain/">ABOUT</a></li>
       <li> <a href="http://kaitlynhova.com/rightbrain/music">MUSIC </a></li>
       <li> <a href="http://kaitlynhova.com/rightbrain/video">VIDEO</a></li>
       <li> <a href="http://kaitlynhova.com/rightbrain/art">ART</a></li>
       <li> <a href="/">BLOG</a></li>
     </ul>
-  </div>
+  </nav>
+</div>
 
-  <div id="mobile-menu" class="visible-xs">
-    <div class="mobile-menu-text">
-      <p class="top-logo"><a href="http://www.kaitlynhova.com/">KAITLYN HOVA</a></p>
-      <p id="trigger-overlay" class="mobile-menu-btn">menu</p>
-    </div>
-  </div>
-
-  <div class="overlay overlay-hugeinc visible-xs">
-    <button type="button" class="overlay-close">Close</button>
-    <nav>
-      <ul>
-        <li><a href="http://kaitlynhova.com/rightbrain/">ABOUT</a></li>
-        <li> <a href="http://kaitlynhova.com/rightbrain/music">MUSIC </a></li>
-        <li> <a href="http://kaitlynhova.com/rightbrain/video">VIDEO</a></li>
-        <li> <a href="http://kaitlynhova.com/rightbrain/art">ART</a></li>
-        <li> <a href="/">BLOG</a></li>
-      </ul>
-    </nav>
-  </div>
+<body <?php body_class($heroheader); ?>> <?php bean_body_start(); ?>
 
 	<?php if ( !is_404() && !is_page_template('template-underconstruction.php')) { //HIDE THIS ON 404/UNDER CONSTRUCTION TEMPLATES ?>
 
